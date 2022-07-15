@@ -1,0 +1,67 @@
+/* @import url(reset.css) */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 70px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.box {
+  /* display: flex; */
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 15px;
+  border-left: 3px solid rgb(17, 54, 242);
+  height: 250px;
+}
+
+.reszta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  width: 97%;
+  
+}
+
+#przychody-form {
+  background-color: blue;
+  padding: 10px;
+}
+
+#wydatki-form {
+
+  background-color: red;
+  padding: 10px;
+}
+
+input::placeholder { 
+
+ }
+
+ .edit-btn{
+  padding: 20px;
+  color: blue;
+ }
+
+ .delete-btn {
+padding: 10px;
+ }
